@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>"The discovery of the large, rich, and beautiful Empire of Guiana, with a
+                    relation of the great and golden city of Manoa (which Spaniards call El
+                    Dorado)"</title>
+                <respStmt>
+                    <resp>Codifica a cura di</resp>
+                    <name>Flavia Burgio</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Catania</authority>
+                <availability status="free">
+                    <p>File realizzato a scopo didattico, non destinato alla pubblicazione.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title level="m"> "The discovery of the large, rich, and beautiful Empire of
+                        Guiana, with a relation of the great and golden city of Manoa (which the
+                        Spaniards call El Dorado)"</title>
+                    <author>Sir Walter Raleigh</author>
+                    <editor>Dagny e John Bickers</editor>
+                    <publisher>The Project Gutenberg</publisher>
+                    <date when="1596">2006</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>On <date ref="departure" when="1595-02-06">Thursday, the sixth of February, in the
+                    year 1595</date>, <orgName ref="English_company">we</orgName> departed
+                    <placeName ref="England">England</placeName>, and <date ref="reached_NorthSpain"
+                    when="1595-02-09">the Sunday following</date> had sight of the <geogName
+                    ref="north_cape_Spain">north cape of <placeName ref="Spain"
+                    >Spain</placeName></geogName>, the wind for the most part continuing prosperous;
+                    <orgName ref="English_company">we</orgName> passed in sight of the <placeName
+                    ref="Burlings">Burlings</placeName>, and the <placeName ref="Rock"
+                    >Rock</placeName>, and so onwards for the <placeName ref="Canaries"
+                    >Canaries</placeName>, and fell with <placeName ref="Fuerteventura"
+                    >Fuerteventura</placeName>
+                <date ref="reached_Fuerteventura" when="1595-02-17">the 17. of the same
+                month</date>, where <orgName ref="English_company">we</orgName> spent <date
+                    ref="stay_3days" dur="P3D">two or three days</date>, and relieved our <orgName
+                    ref="company" type="commercial">companies</orgName> with some fresh meat. From
+                thence <orgName ref="English_company">we</orgName> coasted by the <placeName
+                    ref="Grand_Canaria">Grand Canaria</placeName>, and so to <placeName
+                    ref="Teneriffe">Teneriffe</placeName>, and stayed there for the <rs
+                    type="object" ref="Lion_Whelp_ship">Lion's Whelp</rs>, your Lordship's ship, and
+                for <persName ref="Amyas_Preston"><roleName>Captain</roleName> Amyas
+                    Preston</persName> and the rest. But when after <date ref="stay_8days" dur="P8D"
+                    >seven or eight days</date>
+                <orgName ref="English_company">we</orgName> found them not, <orgName
+                    ref="English_company">we</orgName> departed and directed our course for
+                    <placeName ref="Trinidad">Trinidad</placeName>, with mine own <rs type="object"
+                    ref="Ralegh_ship">ship</rs>, and a small barque of <persName ref="Cross">
+                    <roleName>Captain</roleName> Cross</persName>'s only; for <orgName
+                    ref="English_company">we</orgName> had before lost sight of a small <rs
+                    type="object" ref="galego">galego</rs> on the <geogName ref="coast_of_Spain"
+                    >coast of <placeName ref="Spain">Spain</placeName></geogName>, which came with
+                    <orgName ref="English_company">us</orgName> from <placeName ref="Plymouth"
+                    >Plymouth</placeName>. We arrived at <placeName ref="Trinidad"
+                    >Trinidad</placeName><date ref="reached_Trinidad" when="1595-03-22"> the 22. of
+                    March </date>, casting anchor at <placeName ref="Point_Curiapan">Point
+                    Curiapan</placeName>, which <orgName ref="Spaniards">the Spaniards</orgName>
+                call <placeName ref="Point_Curiapan" xml:lang="es">Punta de Gallo</placeName>, which
+                is situate in eight degrees or thereabouts. We abode there <date ref="stay_5days"
+                    dur="P5D">four or five days</date>, and in all that time <orgName
+                    ref="English_company">we</orgName> came not to the speech of any <orgName
+                    ref="Indians" type="ethnic">Indian</orgName> or <orgName ref="Spaniards"
+                    type="ethnic">Spaniards</orgName>. On the <geogName ref="coast">coast</geogName>
+                <orgName ref="English_company">we</orgName> saw a <rs type="object" ref="fire"
+                    >fire</rs>, as <orgName ref="English_company">we</orgName> sailed from the
+                    <placeName ref="Point_Carao">Point Carao</placeName> towards <placeName
+                    ref="Curiapan">Curiapan</placeName>, but for fear of <orgName ref="Spaniards"
+                    type="ethnic">the Spaniards</orgName> none durst come to speak with <orgName
+                    ref="English_company">us</orgName>. <persName ref="Walter_Raleigh">I
+                    myself</persName> coasted it in my <rs ref="barge" type="object">barge</rs> close aboard the <geogName ref="shore"
+                    >shore</geogName> and landed in every cove, the better to know the <geogName
+                    ref="island">island</geogName>, while the <rs type="object" ref="ship"
+                    >ships</rs> kept the <geogName ref="channel">shore</geogName>channel. From
+                    <placeName ref="Curiapan">Curiapan</placeName> after <date ref="few_days">a few
+                    days</date>
+                <orgName ref="English_company">we</orgName> turned up north-east to recover that
+                place which <orgName ref="Spaniards" type="ethnic">the Spaniards</orgName> call
+                    <placeName ref="Puerto_de_los_espanoles">Puerto de los Espanoles</placeName>
+                (now Port of Spain), and the inhabitants <placeName ref="Puerto_de_los_espanoles"
+                    >Conquerabia</placeName>; and as before, revictualling my barge,<persName
+                    ref="Walter_Raleigh">I</persName> left the <rs type="object" ref="ship"
+                    >ships</rs> and kept by the <geogName ref="shore">shore</geogName>.(…) From
+                    <placeName ref="Curiapan">Curiapan</placeName><persName ref="Walter_Raleigh">I
+                    myself</persName> came to a port and seat of <orgName ref="Indians"
+                    type="ethnic">Indians</orgName> called <placeName ref="Parico"
+                    >Parico</placeName>, where <orgName ref="English_company">we</orgName> found a
+                    <geogName ref="river">fresh water river</geogName>, but saw no <orgName
+                    ref="people">people</orgName>. From thence <persName ref="Walter_Raleigh"
+                    >I</persName> rowed to another port, called by the naturals <placeName
+                    ref="Piche">Piche</placeName>, and by <orgName ref="Spaniards" type="ethnic">the
+                    Spaniards</orgName>
+                <placeName ref="Piche" xml:lang="es">Tierra de Brea</placeName>. In the way between
+                both were divers <geogName ref="brooks">little brooks of fresh water</geogName>, and
+                one <geogName ref="river">salt river</geogName> that had store of oysters upon the
+                branches of the <rs type="object" ref="trees">trees</rs>, and were very salt and
+                well tasted. </p>
+
+            <p>(…)This <geogName ref="island_of_Trinidad">island of <placeName ref="Trinidad"
+                        >Trinidad</placeName></geogName> hath the form of a <rs type="abstract"
+                    ref="sheephook" role="metaphor">sheephook</rs> and is but narrow; the north part
+                is very mountainous; the <rs type="object" ref="soil">soil</rs> is very excellent,
+                and will bear <rs type="object" ref="sugar">sugar</rs>, <rs type="object"
+                    ref="ginger">ginger</rs>, or any other commodity that <placeName
+                    ref="The_Indies">the Indies</placeName>yield. It hath store of <rs type="object"
+                    ref="deer">deer</rs>, <rs type="object" ref="porks">wild porks</rs>, <rs
+                    type="object" ref="fruit">fruit</rs>, <rs type="object" ref="fish">fish</rs>,
+                and <rs type="object" ref="fowl">fowl</rs>; it hath also for <rs type="object"
+                    ref="bread">bread</rs> sufficient <rs type="object" ref="mais">maize</rs>, <rs
+                    type="object" ref="cassavi">cassavi</rs>, and of those <rs type="object"
+                    ref="roots">roots</rs> and <rs type="object" ref="fruit">fruits</rs> which are
+                common everywhere in <placeName ref="The_West_Indies">the West Indies</placeName>.
+                It hath divers <rs type="object" ref="beasts">beasts</rs> which <placeName
+                    ref="The_Indies">the Indies</placeName> have not; <orgName ref="Spaniards"
+                    type="ethnic">the Spaniards</orgName> confessed that they found grains of <rs
+                    type="object" ref="gold">gold</rs> in some of the <geogName ref="river"
+                    >rivers</geogName>; but they having a purpose to enter <placeName ref="Guiana"
+                    >Guiana</placeName>, the magazine of all rich <rs ref="metals" type="object"
+                    >metals</rs>, cared not to spend time in the search thereof any further. This
+                    <geogName ref="island">island</geogName> is called by the <orgName ref="people"
+                    >people</orgName> thereof <placeName ref="Cairi">Cairi</placeName>, and in it
+                are divers <orgName ref="nation" type="political">nations</orgName>. Those about
+                    <placeName ref="Parico">Parico</placeName> are called <orgName ref="Jajo"
+                    type="ethnic">Jajo</orgName>, those at <placeName ref="Punta de Carao">Punta de
+                    Carao</placeName> are of the <orgName ref="Arawaks">Arwacas (Arawaks)</orgName>
+                and between <placeName ref="Carao">Carao</placeName> and <placeName ref="Curiapan"
+                    >Curiapan</placeName> they are called <orgName ref="Salvajos" type="ethnic"
+                    >Salvajos</orgName>. Between <placeName ref="Carao">Carao</placeName> and
+                    <placeName ref="Punta_de_Galera">Punta de Galera</placeName> are the <orgName
+                    ref="Nepojos" type="ethnic">Nepojos</orgName>, and those about the <placeName
+                    ref="Puerto_de_los_espanoles">Spanish city</placeName> term themselves <orgName
+                    ref="Carinepagotes">Carinepagotes</orgName> (Carib-people). </p>
+
+            <p>While <orgName ref="English_company">we</orgName> remained at <placeName
+                    ref="Puerto_de_los_Espanoles">Puerto de los Espanoles</placeName> some <orgName
+                    ref="Spaniards">Spaniards</orgName> came aboard <orgName ref="English_company"
+                    >us</orgName> to buy <rs type="object" ref="linen">linen</rs> of the <orgName
+                    ref="company" type="commercial">company</orgName>, and such other things as they
+                wanted, and also to view our <rs type="object" ref="ship">ships</rs> and <orgName
+                    ref="company" type="commercial">company</orgName>, all which <persName
+                    ref="Walter_Raleigh">I</persName> entertained kindly and feasted after our
+                manner. By means whereof <persName ref="Walter_Raleigh">I</persName> learned of one
+                and another as much of the estate of <placeName ref="Guiana">Guiana</placeName> as
+                    <persName ref="Walter_Raleigh">I</persName> could, or as they knew(…) </p>
+
+            <p><persName ref="Walter_Raleigh">I</persName> found occasions of staying in this place
+                for two causes. The one was to be revenged of <persName ref="Berreo"
+                    >Berreo</persName>, who the year before,<date ref="Berreo_attacks" when="1594"
+                    >1594</date>, had betrayed eight of <persName ref="Whiddon">
+                    <roleName>Captain</roleName>Whiddon</persName>'s men (...) The other cause of my
+                stay was, for that by discourse with <orgName ref="Spaniards">the
+                    Spaniards</orgName> I daily learned more and more of <placeName ref="Guiana"
+                    >Guiana</placeName>, of the <geogName ref="river">rivers</geogName> and
+                    <geogName ref="passages">passages</geogName>, and of the enterprise of <persName
+                    ref="Berreo">Berreo</persName>, by what means or fault he failed, and how he
+                meant to prosecute the same. </p>
+
+            <p>While <orgName ref="English_company">we</orgName> thus spent the time <persName
+                    ref="Walter_Raleigh">I</persName> was assured by another <rs
+                    ref="another_cacique" type="person" role="cacique">cacique</rs> of the north
+                side of the <geogName ref="island">island</geogName>, that <persName ref="Berreo"
+                    >Berreo</persName> had sent to <placeName ref="Margarita">Margarita</placeName>
+                and <placeName ref="Cumana">Cumana</placeName> for <rs ref="soldiers" type="group"
+                    >soldiers</rs>, meaning to have given me a <eventName ref="cassado"
+                    >cassado(blow)</eventName> at parting, if it had been possible. For although he
+                had given order through all the <geogName ref="island">island</geogName> that no
+                    <orgName ref="Indians" type="ethnic">Indian</orgName> should come aboard to
+                trade with me upon pain of hanging and quartering(having executed two of them for
+                the same, which I afterwards found), yet every night there came some with most
+                lamentable complaints of his <rs ref="Borreo" type="trait">cruelty</rs>: how he had
+                divided the <geogName ref="island">island</geogName> and given to <rs ref="soldiers"
+                    type="group">every soldier</rs> a part; that he made the ancient <rs
+                    ref="caciques" type="group">caciques</rs>, which were <rs ref="caciques"
+                    type="group">lords</rs> of the country, to be their <rs ref="slaves"
+                    type="group">slaves</rs>; that he kept them in <rs type="object" ref="chain"
+                    >chains</rs>, and dropped their naked <rs type="object" ref="bodies">bodies</rs>
+                with burning bacon, and such other torments, which <persName ref="Walter_Raleigh"
+                    >I</persName>found afterwards to be true. For in the <placeName
+                    ref="Puerto_de_los_espanoles">city</placeName>, after I entered the same, there
+                were five of the <rs ref="caciques" type="group">lords</rs> or <rs ref="caciques"
+                    type="group">little kings</rs>, which they call <rs ref="caciques" type="group"
+                    >caciques</rs> in the <placeName ref="The_West_Indies">West Indies</placeName>,
+                in one <rs type="object" ref="chain">chain</rs>, almost dead of <rs
+                    ref="famine_of_caciques" type="state">famine</rs>, and wasted with torments.
+                These are called in their own language <rs ref="caciques" type="group"
+                    >acarewana</rs>, and now of late since <orgName ref="The_English" type="ethnic"
+                    >English</orgName>, <orgName ref="The_French" type="ethnic">French</orgName>,
+                and <orgName ref="The_Spanish" type="ethnic">Spanish</orgName>, are come among them,
+                they call themselves <rs ref="captains" type="group">captains</rs>, because they
+                perceive that the chiefest of every <rs type="object" ref="ship">ship</rs> is called
+                by that name. Those five <rs ref="captains" type="group">captains</rs> in the <rs
+                    type="object" ref="chain">chain</rs> were called <persName ref="Wannawanare"
+                    >Wannawanare</persName>, <persName ref="Carroaori">Carroaori</persName>,
+                    <persName ref="Maquarima">Maquarima</persName>, <persName ref="Tarroopanama"
+                    >Tarroopanama</persName>, and <persName ref="Aterima">Aterima</persName>. So as
+                both to be revenged of the former wrong, as also considering that to enter
+                    <placeName ref="Guiana">Guiana</placeName> by small <rs type="object" ref="boat"
+                    >boat</rs>, to depart 400 or 500 miles from my <rs type="object" ref="ship"
+                    >ships</rs>, and to leave a <orgName ref="garrison" type="military"
+                    >garrison</orgName> in my back interested in the same enterprise, who also daily
+                expected supplies out of <placeName ref="Spain">Spain</placeName>, I should have
+                savoured very much of the <rs ref="Walter_Ralegh" type="abstract" subtype="epithet"
+                    >ass</rs>; and therefore taking a time of most advantage, <persName
+                    ref="Walter_Raleigh">I</persName> set upon the <orgName ref="Corps_du_guarde"
+                    type="military" xml:lang="fr">Corps du guarde</orgName> in the evening, and
+                having put them to the <rs type="object" ref="sword">sword</rs>, sent <persName
+                    ref="Caulfield"><roleName>Captain</roleName>Caulfield</persName> onwards with
+                sixty <rs ref="soldiers" type="group">soldiers</rs>, and myself followed with forty
+                more, and so took their new city, which they called <placeName ref="St_Joseph">St.
+                    Joseph</placeName>, by break of day. They abode not any fight after a few shot,
+                and all being dismissed, but only <persName ref="Berreo">Berreo</persName> and his
+                companion (the Portuguese <persName ref="Alvaro_Jorge"
+                    ><roleName>Captain</roleName>Alvaro Jorge</persName>), <persName
+                    ref="Walter_Raleigh">I</persName> brought them with me aboard, and at the
+                instance of <orgName ref="Indians" type="ethnic">the Indians</orgName> I set their
+                    <placeName ref="St_Joseph">new city of St. Joseph</placeName> on <rs
+                    type="object" ref="fire">fire</rs>. </p>
+
+            <p>We then hasted away towards our purposed <eventName ref="discovery"
+                    >discovery</eventName>, and first <persName ref="Walter_Raleigh">I</persName>
+                called all the <rs ref="captains" type="group">captains</rs> of the <geogName
+                    ref="island">island</geogName> together that were <rs ref="enemies" type="group"
+                    role="enemies">enemies</rs> to <orgName ref="Spaniards" type="ethnic">the
+                    Spaniards</orgName>; for there were some which <persName ref="Berreo"
+                    >Berreo</persName> had brought out of other countries and planted there to eat
+                out and waste those that were natural of the place. And by my <rs
+                    ref="Indian_interpreter" type="person" role="interpreter">Indian
+                    interpreter</rs>, which <persName ref="Walter_Raleigh">I</persName> carried out
+                of <placeName ref="England">England</placeName>, <persName ref="Walter_Raleigh"
+                    >I</persName> made them understand that I was the <rs ref="Walter_Raleigh"
+                    type="person" role="servant">servant</rs> of a <rs ref="ElizabethI"
+                    type="person" role="queen">queen</rs> who was the <rs ref="ElizabethI"
+                    type="person" role="cacique">great cacique of the north</rs>, and a <rs
+                    ref="virginity" type="trait">virgin</rs>, and had more <rs ref="caciques"
+                    type="group">caciqui</rs> under her than there were <rs type="object"
+                    ref="trees">trees</rs> in that <geogName ref="island">island</geogName>; that
+                she was an enemy to <orgName ref="Spaniards" type="ethnic">the Castellani</orgName>
+                in respect of their <rs ref="tyranny_of_Spaniards" type="state">tyranny</rs> and <rs
+                    ref="oppression_from_Spaniards" type="state">oppression</rs>, and that she
+                delivered all such <orgName ref="nation" type="political">nations</orgName> about
+                her, as were by them oppressed; and having freed all the <geogName ref="coast"
+                    >coast</geogName> of the northern world from their <rs
+                    ref="servitude_toward_Spaniards" type="state">servitude</rs>, had sent me to
+                free them also, and withal to defend <placeName ref="Guiana">the country of
+                    Guiana</placeName> from their <eventName ref="invasion">invasion</eventName> and
+                    <eventName ref="conquest">conquest</eventName>.</p>
+
+            <p><persName ref="Walter_Raleigh">I</persName> shewed them <rs ref="ElizabethI_picture"
+                    type="object"><rs ref="ElizabethI" type="person" role="majesty">her
+                    Majesty</rs>'s picture</rs>, which they so admired and honoured, as it had been
+                easy to have brought them idolatrous thereof. The like and a more large discourse
+                    <persName ref="Walter_Raleigh">I</persName> made to the rest of the <orgName
+                    ref="nation" type="political">nations</orgName>, both in my passing to
+                    <placeName ref="Guiana">Guiana</placeName> and to those of the <geogName
+                    ref="borders">borders</geogName>, so as in that part of the world <rs
+                    ref="ElizabethI" type="person" role="majesty">her Majesty</rs> is very famous
+                and admirable; whom they now call <persName ref="ElizabethI">EZRABETA
+                        <roleName>CASSIPUNA</roleName>
+                    <roleName>AQUEREWANA</roleName></persName>, which is as much as '<persName
+                    ref="ElizabethI">Elizabeth, the <roleName>Great Princess</roleName>, or
+                        <roleName>Greatest Commander</roleName></persName>.'</p>
+
+            <p>(…)The <orgName ref="empire" type="political">empire</orgName> of <placeName
+                    ref="Guiana">Guiana</placeName> is directly east from <placeName ref="Peru"
+                    >Peru</placeName> towards the <geogName ref="sea">sea</geogName>, and lieth
+                under the <geogName ref="equinoctial_line">equinoctial line</geogName>; and it hath
+                more abundance of <rs type="object" ref="gold">gold</rs> than any part of <placeName
+                    ref="Peru">Peru</placeName>, and as many or more great cities than ever
+                    <placeName ref="Peru">Peru</placeName> had when it flourished most. It is
+                governed by the same <rs ref="laws_of_Guiana" type="state">laws</rs>, and the <rs
+                    ref="emperor" type="person" role="emperor">emperor</rs> and <orgName
+                    ref="people">people</orgName> observe the same <rs ref="religion_of_Guiana"
+                    type="abstract"> religion</rs>, and the same <rs ref="policies_of_Guiana"
+                    type="state"> form and policies</rs> in government as were used in <placeName
+                    ref="Peru">Peru</placeName>, not differing in any part. And <persName
+                    ref="Walter_Raleigh">I</persName> have been assured by such of <orgName
+                    ref="Spaniards">the Spaniards</orgName> as have seen <placeName ref="Manoa"
+                    type="legendary">Manoa</placeName>, the imperial city of <placeName ref="Guiana"
+                    >Guiana</placeName>, which <orgName ref="Spaniards">the Spaniards</orgName> call
+                    <placeName ref="Manoa" xml:lang="es">El Dorado</placeName>, that for the <rs
+                    ref="Manoa" type="trait">greatness</rs>, for the riches, and for the excellent
+                seat, it far exceedeth any of the world, at least of so much of the world as is
+                known to <placeName ref="Spain">the Spanish nation</placeName>. It is founded upon a
+                    <geogName ref="lake">lake of salt water</geogName> of 200 leagues long, like
+                unto <geogName ref="Mare_Caspium">Mare Caspium</geogName>(...) </p>
+
+            <p>And if we compare it to that of <placeName ref="Peru">Peru</placeName>, and but read
+                the <rs ref="report" type="object">report</rs> of <persName ref="Francisco_Lopez"
+                    >Francisco Lopez</persName> and others, it will seem more than credible; and
+                because we may judge of the one by the other, <persName ref="Walter_Raleigh"
+                    >I</persName> thought good to insert part of the 120. chapter of Lopez in his
+                    <objectName ref="Lopez_Book">General History of the Indies</objectName> ,
+                wherein he describeth the <rs ref="court" type="object">court</rs> and <rs
+                    ref="Guayna_Capac" type="trait">magnificence</rs> of <persName
+                    ref="Guayna_Capac">Guayna Capac</persName>, ancestor to the <rs ref="emperor"
+                    type="person" role="emperor">emperor</rs> of <placeName ref="Guiana"
+                    >Guiana</placeName>, whose very words are these:(…)"All the <rs ref="vessels"
+                    type="object">vessels</rs> of his <rs ref="house" type="object">house</rs>, <rs
+                    ref="table" type="object">table</rs>, and <rs type="object" ref="kitchen"
+                    >kitchen</rs>, were of <rs type="object" ref="gold">gold</rs> and <rs
+                    type="object" ref="silver">silver</rs>, and the meanest of <rs type="object"
+                    ref="silver">silver</rs> and <rs type="object" ref="copper">copper</rs> for
+                strength and hardness of metal. He had in his <rs type="object" ref="wardrobe"
+                    >wardrobe</rs> hollow <rs type="object" ref="statues">statues</rs> of <rs
+                    type="object" ref="gold">gold</rs> which seemed giants (…) Finally, there was
+                nothing in his <placeName ref="Guiana">country</placeName> whereof he had not the
+                counterfeit in <rs type="object" ref="gold">gold</rs>. </p>
+
+            <p>(...)the first that ever saw <placeName ref="Manoa" type="legendary"
+                    >Manoa</placeName> was <persName ref="Juan_Martinez">Juan Martinez</persName>,
+                master of the munition to <persName ref="Ordas">Ordas</persName>. (...)This
+                    <persName ref="Juan_Martinez">Martinez</persName> was he that christened
+                    <placeName ref="Manoa" type="legendary">the city of Manoa</placeName> by the
+                name of <placeName ref="Manoa" type="legendary" xml:lang="es">El Dorado</placeName>,
+                and, as <persName ref="Berreo">Berreo</persName> informed me, upon this occasion,
+                those <orgName ref="Guianians" type="ethnic">Guianians</orgName>, and also the
+                borderers, and all other in that tract which <persName ref="Walter_Raleigh"
+                    >I</persName> have seen, are marvellous great drunkards; in which <rs
+                    type="abstract" ref="vice">vice</rs><persName ref="Walter_Raleigh">I</persName>
+                think no <orgName ref="nation" type="political">nation</orgName> can compare with
+                them; and at the times of their solemn <rs ref="feasts" type="object">feasts</rs>,
+                when the <rs ref="emperor" type="person" role="emperor">emperor</rs> carouseth with
+                his <rs ref="captains" type="group">captains</rs>, <rs ref="tributaries"
+                    type="group">tributaries</rs>, and <rs ref="governors" type="group"
+                    >governors</rs>, the manner is thus. All those that pledge him are first
+                stripped naked and their <rs type="object" ref="bodies">bodies</rs> anointed all
+                over with a kind of <rs type="object" ref="balsam">white balsamum</rs> (by them
+                called <rs type="object" ref="balsam">curca</rs>), of which there is great plenty,
+                and yet very dear amongst them, and it is of all other the most precious, whereof
+                    <orgName ref="English_company">we</orgName> have had good experience. When they
+                are anointed all over, certain <rs ref="servants" type="group">servants</rs> of the
+                    <rs ref="emperor" type="person" role="emperor">emperor</rs>, having prepared <rs
+                    type="object" ref="gold">gold</rs> made into <rs type="object" ref="powder">fine
+                    powder</rs>, blow it through hollow <rs type="object" ref="canes">canes</rs>
+                upon their naked <rs type="object" ref="bodies">bodies</rs>, until they be all
+                shining from the foot to the head; and in this sort they sit drinking by twenties
+                and hundreds, and continue in <rs ref="drunkeness_of_natives" type="state"
+                    >drunkenness</rs> sometimes <date ref="duration_7days" dur="P7D">six or seven
+                    days</date> together. (...)</p>
+
+            <p><persName ref="Walter_Raleigh">I</persName> gave among them many more pieces of <rs
+                    type="object" ref="gold">gold</rs> than <persName ref="Walter_Raleigh"
+                    >I</persName> received, of the new <rs type="object" ref="money">money</rs> of
+                twenty shillings with <rs ref="ElizabethI_picture" type="object"><rs
+                        ref="ElizabethI" type="person" role="majesty">her Majesty</rs>'s
+                    picture</rs>, to wear, with promise that they would become her <rs
+                    ref="servants" type="group">servants</rs> thenceforth. (...)</p>
+
+            <p>This <orgName ref="Arawaks" type="ethnic">Arwacan</orgName><rs ref="pilot"
+                    type="person" role="pilot">pilot</rs>, with the rest, feared that <orgName
+                    ref="English_company">we</orgName> would have eaten them, or otherwise have put
+                them to some cruel death: for <orgName ref="Spaniards" type="ethnic">the
+                    Spaniards</orgName>, to the end that none of the <orgName ref="people"
+                    >people</orgName> in the passage towards <placeName ref="Guiana"
+                    >Guiana</placeName>, or in <placeName ref="Guiana">Guiana</placeName> itself,
+                might come to speech with <orgName ref="English_company">us</orgName>, persuaded all
+                the <orgName ref="nation" type="political">nations</orgName> that <orgName
+                    ref="English_company">we</orgName> were men-eaters and cannibals. But when the
+                poor men and women had seen <orgName ref="English_company">us</orgName>, and that
+                    <orgName ref="English_company">we</orgName> gave them meat, and to every one
+                something or other which was rare and strange to them, they began to conceive the
+                deceit and purpose of <orgName ref="Spaniards" type="ethnic">the
+                Spaniards</orgName>, who indeed, as they confessed, took from <orgName ref="Arawaks"
+                    type="ethnic">them</orgName> both their <rs ref="wives" type="group">wives</rs>
+                and <rs ref="daughters" type="group">daughters</rs> daily.(...)</p>
+
+            <p>But <persName ref="Walter_Raleigh">I</persName> protest before the <rs
+                    ref="ElizabethI" type="person" role="majesty">Majesty</rs> of the living God,
+                that <persName ref="Walter_Raleigh">I</persName> neither know nor believe, that any
+                of <orgName ref="English_company">our company</orgName>, one or other, did offer
+                insult to any of their women, and yet <orgName ref="English_company">we</orgName>
+                saw many hundreds, and had many in our power, and of those very young and
+                excellently favoured, which came among <orgName ref="English_company">us</orgName>
+                without deceit, stark naked. Nothing got <orgName ref="English_company">us</orgName>
+                more love amongst them than this usage; for <persName ref="Walter_Raleigh"
+                    >I</persName> suffered not any man to take from any of the <orgName ref="nation"
+                    type="political">nations</orgName> so much as a <rs type="object"
+                    ref="pineapple">pina (pineapple)</rs> or a <rs type="object" ref="potato_root"
+                    >potato root</rs> without giving them contentment, nor any man so much as to
+                offer to touch any of their <rs ref="wives" type="group">wives</rs> or <rs
+                    ref="daughters" type="group">daughters</rs>; which course, so contrary to
+                    <orgName ref="Spaniards" type="ethnic">the Spaniards</orgName>, who tyrannize
+                over them in all things, drew them to admire <rs ref="ElizabethI" type="person"
+                    role="majesty">her Majesty</rs>, whose commandment <persName
+                    ref="Walter_Raleigh">I</persName> told them it was, and also wonderfully to
+                honour our <placeName ref="England">nation</placeName>. </p>
+
+            <p>But <persName ref="Walter_Raleigh">I</persName> confess it was a very impatient work
+                to keep the meaner sort from spoil and stealing when <orgName ref="English_company"
+                    >we</orgName> came to their <rs type="object" ref="house">houses</rs>; which
+                because in all <persName ref="Walter_Raleigh">I</persName> could not prevent,
+                    <persName ref="Walter_Raleigh">I</persName> caused my <rs
+                    ref="Indian_interpreter" type="person" role="interpreter">Indian
+                    interpreter</rs> at every place when <orgName ref="English_company">we</orgName>
+                departed, to know of the loss or wrong done, and if aught were stolen or taken by
+                    <rs type="abstract" ref="violence">violence</rs>, either the same was restored,
+                and the party punished in their sight, or else was paid for to their uttermost
+                demand. They also much wondered at <orgName ref="English_company">us</orgName>,
+                after they heard that <orgName ref="English_company">we</orgName> had slain <orgName
+                    ref="Spaniards">the Spaniards</orgName> at <placeName ref="Trinidad"
+                    >Trinidad</placeName>, for they were before resolved that no <orgName
+                    ref="nation" type="political">nation</orgName> of <orgName ref="Christians"
+                    type="religious">Christians</orgName> durst abide their presence; and they
+                wondered more when <persName ref="Walter_Raleigh">I</persName> had made them know of
+                the great overthrow that <rs ref="ElizabethI" type="person" role="majesty">her
+                    Majesty</rs>'s <orgName ref="army" type="military">army</orgName> and <orgName
+                    ref="fleet" type="military">fleet</orgName> had given them of late years in
+                their own countries.(...)</p>
+
+            <p>After this old <rs ref="king" type="person" role="king">king</rs> had rested awhile
+                in a little <rs type="object" ref="tent">tent</rs> that <persName
+                    ref="Walter_Raleigh">I</persName> caused to be set up, <persName
+                    ref="Walter_Raleigh">I</persName> began by my <rs ref="Indian_interpreter"
+                    type="person" role="interpreter">interpreter</rs> to discourse with him of the
+                death of <persName ref="Morequito">Morequito</persName> his predecessor, and
+                afterward of <orgName ref="Spaniards" type="ethnic">the Spaniards</orgName>; and ere
+                    <persName ref="Walter_Raleigh">I</persName> went any farther <persName
+                    ref="Walter_Raleigh">I</persName> made him know the cause of my coming thither,
+                whose <rs ref="servant" type="person" role="servant">servant</rs><persName
+                    ref="Walter_Raleigh">I</persName> was, and that the <rs ref="ElizabethI"
+                    type="person" role="queen">Queen</rs>'s pleasure was <persName
+                    ref="Walter_Raleigh">I</persName> should undertake the <eventName ref="voyage"
+                    >voyage</eventName> for their defence, and to deliver them from the <rs
+                    ref="tyranny_of_Spaniards" type="state">tyranny</rs> of <orgName ref="Spaniards"
+                    type="ethnic">the Spaniards</orgName>, dilating at large, as <persName
+                    ref="Walter_Raleigh">I</persName> had done before to those of <placeName
+                    ref="Trinidad">Trinidad</placeName>, <rs ref="ElizabethI" type="trait"><rs
+                        ref="ElizabethI" type="person" role="majesty">her Majesty</rs>'s
+                    greatness</rs>, her <rs type="abstract" ref="justice">justice</rs>, her <rs
+                    ref="ElizabethI" type="trait">charity</rs> to all oppressed <orgName
+                    ref="nation" type="political">nations</orgName>, with as many of the rest of her
+                beauties and virtues as either <persName ref="Walter_Raleigh">I</persName> could
+                express or they conceive. All which being with great <rs ref="admiration"
+                    type="abstract">admiration</rs> attentively heard and marvellously
+                admired.(...)</p>
+
+            <p>To conclude, <placeName ref="Guiana">Guiana</placeName> is a country that hath yet
+                her <rs type="abstract" ref="maidenhead">maidenhead</rs>, never sacked, turned, nor
+                wrought; the face of the <geogName ref="earth">earth</geogName> hath not been torn,
+                nor the virtue and <rs type="object" ref="salt">salt</rs> of the <rs type="object"
+                    ref="soil">soil</rs> spent by manurance. The <rs type="object" ref="graves"
+                    >graves</rs> have not been opened for <rs type="object" ref="gold">gold</rs>,
+                the <rs type="object" ref="mines">mines</rs> not broken with sledges, nor their <rs
+                    type="object" ref="images">images</rs> pulled down out of their <rs
+                    type="object" ref="temples">temples</rs>. It hath never been entered by any
+                    <orgName ref="army" type="military">army</orgName> of strength, and never
+                conquered or possessed by any Christian prince.(...)</p>
+
+            <p>And <persName ref="Walter_Raleigh">I</persName> further remember that <persName
+                    ref="Berreo">Berreo</persName> confessed to me and others, which <persName
+                    ref="Walter_Raleigh">I</persName> protest before the Majesty of God to be true,
+                that there was found among the <rs ref="prophecies" type="event">prophecies</rs> in
+                    <placeName ref="Peru">Peru</placeName>, at such time as the <orgName
+                    ref="empire" type="political">empire</orgName> was reduced to the Spanish
+                obedience, in their chiefest <rs type="object" ref="temples">temples</rs>, amongst
+                divers others which foreshadowed the loss of the said <orgName ref="empire"
+                    type="political">empire</orgName>, that from <placeName ref="England"
+                    >Inglatierra</placeName> those <orgName ref="Ingas" type="ethnic"
+                    >Ingas</orgName> should be again in time to come restored, and delivered from
+                the <rs ref="servitude_toward_Spaniards" type="state">servitude</rs> of the said <rs
+                    ref="conquerors" type="group">conquerors</rs>. And <persName
+                    ref="Walter_Raleigh">I</persName> hope, as <orgName ref="English_company"
+                    >we</orgName> with these few hands have displanted the first <orgName
+                    ref="garrison" type="military">garrison</orgName>, and driven them out of the
+                said <placeName ref="Guiana">country</placeName>, so <rs ref="ElizabethI"
+                    type="person" role="majesty">her Majesty</rs> will give order for the rest, and
+                either defend it, and hold it as tributary, or conquer and keep it as <rs
+                    ref="ElizabethI" type="person" role="empress">empress</rs> of the same. For
+                whatsoever prince shall possess it, shall be greatest; and if <rs ref="PhilipII"
+                    type="person" role="king">the king of <placeName ref="Spain"
+                    >Spain</placeName></rs> enjoy it, he will become unresistible.<rs
+                    ref="ElizabethI" type="person" role="majesty"> Her Majesty</rs> hereby shall
+                confirm and strengthen the opinions of all <orgName ref="nation" type="political"
+                    >nations</orgName> as touching her great and princely actions. And where the
+                south border of <placeName ref="Guiana">Guiana</placeName> reacheth to the dominion
+                and <orgName ref="empire" type="political">empire</orgName> of <orgName
+                    ref="The_Amazons" type="ethnic">the Amazons</orgName>, those women shall hereby
+                hear the name of a <rs ref="ElizabethI" type="trait">virgin</rs>, which is not only
+                able to defend her own <placeName ref="England">territories</placeName> and her
+                neighbours, but also to invade and conquer so great <orgName ref="empire"
+                    type="political">empires</orgName> and so far removed.</p>
+        </body>
+        <back>
+            <listEvent>
+                <event xml:id="discovery">
+                    <eventName>Discovery</eventName>
+                </event>
+                <event xml:id="invasion">
+                    <eventName>Invasion</eventName>
+                </event>
+                <event xml:id="conquest">
+                    <eventName>Conquest</eventName>
+                </event>
+                <event xml:id="voyage">
+                    <eventName>Voyage</eventName>
+                </event>
+                <event xml:id="cassado">
+                    <eventName>Cassado</eventName>
+                    <note>Il termine viene utilizzato nel momento in cui Ralegh viene avvertito da
+                        un "cacique" riguardo alle intenzioni di Berreo, il quale aveva inviato i
+                        suoi uomini per tendergli un'imboscata e colpirlo a tradimento("meaning to
+                        have given me a cassado").</note>
+                </event>
+                <event xml:id="departure">
+                    <label>Departure from England</label>
+                    <note>Giovedì, sei febbraio dell'anno 1595.</note>
+                </event>
+                <event xml:id="reached_NorthSpain">
+                    <label>Arrival at the North Cape</label>
+                    <note>La domenica successiva alla partenza.</note>
+                </event>
+                <event xml:id="reached_Fuerteventura">
+                    <label>Arrival at Fuerteventura</label>
+                    <note>Il giorno 17 dello stesso mese (febbraio).</note>
+                </event>
+                <event xml:id="reached_Trinidad">
+                    <label>Arrival at Trinidad</label>
+                    <note>Il 22 di marzo.</note>
+                </event>
+                <event xml:id="Berreo_attacks">
+                    <label>Berreo's Attack</label>
+                    <note>L'anno precedente alla spedizione di Ralegh (1594), Berreo tradì gli
+                        uomini del capitano Whiddon, attirandoli a terra con l'inganno. Fingendo
+                        amicizia, gli spagnoli riuscirono a prendere prigionieri gli inglesi e
+                        ucciderli.</note>
+                </event>
+                <event xml:id="stay_3days">
+                    <label>Short stay in Fuerteventura</label>
+                    <note>Ralegh e i suoi uomini trascorrono due o tre giorni a
+                        Fuerteventura.</note>
+                </event>
+                <event xml:id="stay_8days">
+                    <label>Longer stay in Tenerife</label>
+                    <note>La flotta sosta a Tenerife nell'attesa di ricongiugersi con la Lion's
+                        Whelp e il Capitano Amyas Preston. Tuttavia, dopo una settimana Raleigh
+                        decise di ripartire verso Trinidad senza di loro.</note>
+                </event>
+                <event xml:id="stay_5days">
+                    <label>Arrival at Trinidad</label>
+                    <note>Ralegh approda sull'isola di Trinidad, l'odierna Repubblica di Trinidad e
+                        Tobago. In particolare, nei pressi di Point Curiapan, anche chiamata dagli
+                        spagnoli "Punta de Gallo". </note>
+                </event>
+                <event xml:id="few_days">
+                    <label>Short stay in Curiapan</label>
+                    <note>Ralegh sosta per pochi giorni nella località di Trinidad dove era
+                        approdato, per spostarsi in seguito verso la città spagnola di 'Puerto de
+                        los Españoles', l'odierna Port of Spain, capitale della Repubblica di
+                        Trinidad e Tobago.</note>
+                </event>
+                <event xml:id="duration_7days">
+                    <label>General duration of native rituals</label>
+                    <note>Ralegh sottolinea come i rituali indegeni potessero durare anche un'intera
+                        settimana. Il riferimento ai sette giorni di festeggiamenti ininterrotti,
+                        insieme alla loro descrizione come "marvellous great drunkards" cioè
+                        "straordinari bevitori", costituisce una tecnica narrativa frequente nella
+                        letteratura di viaggio coloniale volta a costruire l'immagine dell'indigeno
+                        come un "barbaro".</note>
+                </event>
+            </listEvent>
+
+            <listPerson>
+                <person xml:id="Amyas_Preston">
+                    <persName>Captain Amyas Preston</persName>
+                    <note>Dopo aver atteso invano a Tenerife per circa una settimana il
+                        ricongiungimento con la Lion's Whelp e il Capitano Amyas Preston, Raleigh
+                        decise di ripartire verso Trinidad, nonostante la squadra fosse rimasta
+                        incompleta. </note>
+                </person>
+                <person xml:id="Cross">
+                    <persName>Captain Cross</persName>
+                    <note>Comandante di una piccola imbarcazione che accompagnò Raleigh verso
+                        Trinidad.</note>
+                </person>
+                <person xml:id="Walter_Raleigh">
+                    <persName>Sir Walter Raleigh</persName>
+                    <note>Scrittore, esploratore e cortigiano presso la corte della regina
+                        d'Inghilterra Elisabetta I, nel testo si autodefinisce suo servo
+                        ("servant"). Attraverso i suoi scritti, Raleigh cercò di ripristinare la
+                        propria credibilità nei confronti della sovrana dopo una caduta in
+                        disgrazia, costruendo un'immagine di sé come promotore di una colonizzazione
+                        inglese "benevola" e civile, in diretto contrasto con la violenza
+                        spagnola.</note>
+                </person>
+                <person xml:id="Berreo">
+                    <persName>Antonio de Berreo</persName>
+                    <note>Governatore spagnolo prigioniero di Raleigh, il quale nell'anno precedente
+                        aveva aggredito gli uomini inglesi del Capitano Whiddon traendoli in
+                        inganno. Egli rappresenta una fonte di informazioni preziosa sulla
+                        Guiana.</note>
+                </person>
+                <person xml:id="Whiddon">
+                    <persName>Captain Whiddon</persName>
+                    <note>Capitano inglese i cui uomini furono traditi da Berreo l'anno
+                        precedente.</note>
+                </person>
+                <person xml:id="Wannawanare">
+                    <persName>Wannawanare</persName>
+                    <note>Insieme a Carroaori, Maquarima, Tarroopanama e Aterima è uno dei leader
+                        locali della Guiana (chiamati "cacique", "acarewana" o "captain") resi
+                        schiavi e tenuti in catene e tormetati da Berreo.</note>
+                </person>
+                <person xml:id="Carroaori">
+                    <persName>Carroaori</persName>
+                    <note>Insieme a Wannawanare, Maquarima, Tarroopanama e Aterima è uno dei leader
+                        locali della Guiana (chiamati "cacique", "acarewana" o "captain") resi
+                        schiavi e tenuti in catene e tormetati da Berreo.</note>
+                </person>
+                <person xml:id="Maquarima">
+                    <persName>Maquarima</persName>
+                    <note>Insieme a Wannawanare, Carroaori, Tarroopanama e Aterima è uno dei leader
+                        locali della Guiana (chiamati "cacique", "acarewana" o "captain") resi
+                        schiavi e tenuti in catene e tormetati da Berreo.</note>
+                </person>
+                <person xml:id="Tarroopanama">
+                    <persName>Tarroopanama</persName>
+                    <note>Insieme a Wannawanare, Carroaori, Maquarima e Aterima è uno dei leader
+                        locali della Guiana (chiamati "cacique", "acarewana" o "captain") resi
+                        schiavi e tenuti in catene e tormetati da Berreo.</note>
+                </person>
+                <person xml:id="Aterima">
+                    <persName>Aterima</persName>
+                    <note>Insieme a Wannawanare, Carroaori, Maquarima e Tarroopanama è uno dei
+                        leader locali della Guiana (chiamati "cacique", "acarewana" o "captain")
+                        resi schiavi e tenuti in catene e tormetati da Berreo.</note>
+                </person>
+                <person xml:id="Caulfield">
+                    <persName>Captain Caulfield</persName>
+                    <note>Comandante inglese che guidò l'attacco ordinato da Ralegh contro la città
+                        spagnola di St.Joseph.</note>
+                </person>
+                <person xml:id="Alvaro_Jorge">
+                    <persName>Alvaro Jorge</persName>
+                    <note>Capitano portoghese e braccio destro di Berreo, viene catturato da Raleigh
+                        in seguito all'attacco di St.Joseph. .</note>
+                </person>
+                <person xml:id="ElizabethI">
+                    <persName>Queen Elizabeth I</persName>
+                    <note>Ralegh adotta una precisa strategia comunicativa traducendo la sovranità
+                        di Elisabetta I in termini comprensibili alle popolazioni locali. Infatti,
+                        se per gli inglesi è "Queen", "Majesty" o "Empress", per i nativi diviene la
+                        "Great Cacique of the North" o, nella loro lingua, "EZRABETA CASSIPUNA
+                        AQUEREWANA"</note>
+                </person>
+                <person xml:id="Guayna_Capac">
+                    <persName>Guayna Capac</persName>
+                    <note>Antico imperatore inca, antenato del sovrano della Guiana al tempo di
+                        Raleigh. La magnificenza della sua corte è documentata nella "Historia
+                        General de las Indias" di Francisco López de Gómara. Raleigh ne cita un
+                        passaggio per illustrare, tramite un elenco iperbolico di manufatti in oro,
+                        l'immensa ricchezza del territorio.</note>
+                </person>
+                <person xml:id="Francisco_Lopez">
+                    <persName>Francisco López de Gómara</persName>
+                    <note>Storico spagnolo autore della "Historia General de las Indias".</note>
+                </person>
+                <person xml:id="Juan_Martinez">
+                    <persName>Juan Martinez</persName>
+                    <note>Soldato spagnolo della spedizione di Diego de Ordaz. Secondo il resoconto
+                        di Raleigh, Martinez sarebbe stato il primo europeo a raggiungere Manoa,
+                        città fittizia collocata sulle sponde dell'altrettanto inesistente Lago
+                        Parime. A lui viene attribuita l'invenzione del nome "El Dorado", nato dopo
+                        aver assistito ai rituali indigeni in cui i corpi venivano interamente
+                        ricoperti di polvere d'oro.</note>
+                </person>
+                <person xml:id="Ordas">
+                    <persName>Diego de Ordaz</persName>
+                    <note>Conquistatore spagnolo che guidò la spedizione nel bacino dell'Orinoco.
+                        Raleigh lo cita come figura di riferimento per il racconto di Juan
+                        Martinez.</note>
+                </person>
+                <person xml:id="Morequito">
+                    <persName>Morequito</persName>
+                    <note>Predecessore del re indigeno incontrato da Raleigh.</note>
+                </person>
+                <person xml:id="PhilipII">
+                    <persName>King Philip II</persName>
+                    <note>Re di Spagna, principale rivale della corona inglese per il controllo
+                        delle Americhe.</note>
+                </person>
+                <person xml:id="another_cacique">
+                    <persName>Another cacique</persName>
+                    <occupation>Cacique del lato nord dell'isola che informa Ralegh delle intenzioni
+                        di Berreo di tendergli un'imboscata.</occupation>
+                </person>
+                <person xml:id="Indian_interpreter">
+                    <persName>Indian interpreter</persName>
+                    <note>Interprete indigeno portato da Ralegh dall'Inghilterra per comunicare con
+                        le popolazioni locali.</note>
+                </person>
+                <person xml:id="emperor">
+                    <persName>Emperor of Guiana</persName>
+                    <note>Sovrano dell'impero della Guiana e discendente di Guayna Capac.</note>
+                </person>
+                <person xml:id="pilot">
+                    <persName>Arwacan pilot</persName>
+                    <note>Pilota di etnia Arawak che guida la spedizione verso la Guiana.</note>
+                </person>
+                <person xml:id="king">
+                    <persName>Old king</persName>
+                    <note>Anziano sovrano locale con cui Ralegh discute della tirannia
+                        spagnola.</note>
+                </person>
+            </listPerson>
+
+            <listPlace>
+                <place xml:id="England">
+                    <placeName>England</placeName>
+                    <note>Regno d'Inghilterra, punto di partenza della spedizione.</note>
+                </place>
+                <place xml:id="Spain">
+                    <placeName>Spain</placeName>
+                    <note>Regno di Spagna, nazione colonizzatrice rivale.</note>
+                </place>
+                <place xml:id="Burlings">
+                    <placeName>Arquipélago das Berlengas</placeName>
+                    <note>Arcipelago delle Berlengas, al largo della costa del Portogallo.</note>
+                </place>
+                <place xml:id="Rock">
+                    <placeName>Cabo da Roca</placeName>
+                    <note>Cabo da Roca, punto costiero del Portogallo.</note>
+                </place>
+                <place xml:id="Canaries">
+                    <placeName>Islas Canarias</placeName>
+                    <note>Isole Canarie, arcipelago atlantico spagnolo.</note>
+                </place>
+                <place xml:id="Fuerteventura">
+                    <placeName>Fuerteventura</placeName>
+                    <note>Una delle isole Canarie dove Raleigh approdò il 17 febbraio 1595,
+                        sostandovi per un paio di giorni.</note>
+                </place>
+                <place xml:id="Grand_Canaria">
+                    <placeName>Grand Canaria</placeName>
+                    <note>Isola dell'arcipelago delle Canarie.</note>
+                </place>
+                <place xml:id="Teneriffe">
+                    <placeName>Tenerife</placeName>
+                    <note>Isola di Tenerife, dove la flotta fece una sosta di circa una settimana
+                        prima di ripartire per Trinidad.</note>
+                </place>
+                <place xml:id="Trinidad">
+                    <placeName>Trinidad</placeName>
+                    <note>Isola caraibica dell'attuale Repubblica di Trinidad e Tobago dove Raleigh
+                        approda nel marzo 1595. Il numero di indigeni, resti di quelle numerose
+                        tribù che abitavano Trinidad all'epoca della visita di Raleigh, ammontava
+                        nel 1831 a 762 individui.</note>
+                    <bibl>Schomburgk 2010</bibl>
+                </place>
+                <place xml:id="Plymouth">
+                    <placeName>Plymouth</placeName>
+                    <note>Porto inglese da cui partì la spedizione il 6 febbraio 1595.</note>
+                </place>
+                <place xml:id="Point_Curiapan">
+                    <placeName>Point Curiapan</placeName>
+                    <note>Località a Trinidad, chiamata Punta de Gallo dagli spagnoli.</note>
+                </place>
+                <place xml:id="Point_Carao">
+                    <placeName>Point Carao</placeName>
+                    <note>Località identificata con l'odierna Negra Point (Punta Negra). Nella
+                        cartografia spagnola il sito è registrato anche con la variante "Curao",
+                        toponimo esteso anche al corso d'acqua situato sul lato esposto ai venti
+                        rispetto alla punta.</note>
+                    <bibl>Schomburgk 2010</bibl>
+                </place>
+                <place xml:id="Curiapan">
+                    <placeName>Curiapan</placeName>
+                    <note>Identificata con l'odierno Icacos Point (Trinidad), la punta delimita lo
+                        stretto della Bocca del Serpente. Già visitata da Colombo (1498) e Dudley
+                        (1595), è citata da Raleigh con un errore sistematico di due gradi di
+                        latitudine sud. La zona comprende i banchi di sabbia di "los Gallos" e la
+                        baia "Pelican's Bay".</note>
+                    <bibl>Schomburgk 2010</bibl>
+                </place>
+                <place xml:id="Puerto_de_los_espanoles">
+                    <placeName>Puerto de los Espanoles</placeName>
+                    <note>Odierna capitale della Repubblica di Trinidad e Tobago (Port of Spain).
+                        All'epoca del viaggio di Raleigh era un avamposto marittimo sotto il
+                        controllo coloniale spagnolo.</note>
+                </place>
+                <place xml:id="Parico">
+                    <placeName>Punta del Cedro</placeName>
+                    <note>Porto e sede di popolazioni indigene a Trinidad. La località è
+                        identificata con l'odierna Punta del Cedro (o Cedar Point), che delimita a
+                        nord la baia. Il toponimo "Parico", utilizzato all'epoca di Raleigh, è oggi
+                        caduto in disuso.</note>
+                    <bibl>Schomburgk 2010</bibl>
+                </place>
+                <place xml:id="Piche">
+                    <placeName>Pitch Lake</placeName>
+                    <note>Lago di bitume naturale presso Punta la Brea (Trinidad). Raleigh ne
+                        sottolinea le proprietà protettive contro il "Teredo navalis", un mollusco
+                        dannoso per le imbarcazioni, sebbene l'uso di tale materiale sia rimasto
+                        limitato a causa dell'alto costo dei solventi necessari.</note>
+                    <bibl>Schomburgk 2010</bibl>
+                </place>
+                <place xml:id="The_Indies">
+                    <placeName>The Indies</placeName>
+                    <note>Il termine si riferisce alle colonie del continente asiatico. Ralegh usa
+                        questo paragone per dare prestigio a Trinidad, infatti, suggerisce che
+                        l'isola sia ricca di spezie e animali rari proprio come l'Oriente, che
+                        all'epoca era considerato il massimo modello di ricchezza per gli europei.
+                    </note>
+                </place>
+                <place xml:id="The_West_Indies">
+                    <placeName>The West Indies</placeName>
+                    <note>Con "West Indies" Raleigh indica l'area caraibica e sudamericana,
+                        distinguendola dalle "Indie Orientali". Il riferimento sottolinea la
+                        presenza di piante native come il mais e la manioca, specie all'epoca
+                        assenti nel "Vecchio Mondo" e in Asia. </note>
+                </place>
+                <place xml:id="Guiana">
+                    <placeName>Guiana</placeName>
+                    <note>Nel resoconto di Raleigh, la Guiana è descritta come un vasto e
+                        ricchissimo impero situato a est del Perù, direttamente sotto la linea
+                        equatoriale. L'autore la presenta come il "magazzino di tutti i metalli
+                        preziosi", sostenendo che possieda più oro di qualsiasi regione peruviana.
+                        Raleigh identifica la capitale nella leggendaria città di Manoa (chiamata
+                        dagli spagnoli "El Dorado")e utilizza riferimenti a profezie locali per
+                        suggerire che il destino della Guiana sia quello di essere liberata dal
+                        dominio spagnolo proprio dall'Inghilterra.</note>
+                </place>
+                <place xml:id="Cairi">
+                    <placeName>Cairi</placeName>
+                    <note>Nome indigeno dell'isola di Trinidad.</note>
+                </place>
+                <place xml:id="Punta_de_Carao">
+                    <placeName>Punta de Carao</placeName>
+                    <note>Promontorio abitato dagli Arwacas.</note>
+                </place>
+                <place xml:id="Carao">
+                    <placeName>Carao</placeName>
+                    <note>Regione costiera di Trinidad.</note>
+                </place>
+                <place xml:id="Punta_de_Galera">
+                    <placeName>Punta de Galera</placeName>
+                    <note>Località identificata con l'odierna Punta Galeota (estremità sud-orientale
+                        di Trinidad). Il nome "Galera" le fu originariamente attribuito da Colombo
+                        nel 1498 per via di una roccia simile a una nave a vela; successivamente, il
+                        toponimo "Punta de la Galera" è passato a indicare stabilmente il
+                        promontorio a nord-est dell'isola. </note>
+                    <bibl>Schomburgk 2010</bibl>
+                </place>
+                <place xml:id="Margarita">
+                    <placeName>Margarita</placeName>
+                    <note>Isola venezuelana controllata dagli spagnoli.</note>
+                </place>
+                <place xml:id="Cumana">
+                    <placeName>Cumana</placeName>
+                    <note>Città costiera nell'odierno Venezuela.</note>
+                </place>
+                <place xml:id="Peru">
+                    <placeName>Perù</placeName>
+                    <note>Regione andina colonizzata dagli spagnoli, usata come paragone per la
+                        Guiana.</note>
+                </place>
+                <place xml:id="Manoa">
+                    <placeName>Manoa</placeName>
+                    <note>Città leggendaria chiamata dagli spagnoli con il nome di "El Dorado".
+                        Raleigh e i cartografi del tempo credevano sorgesse sulle sponde
+                        dell'immenso, e altrettanto inesistente, lago Parime. Le spedizioni
+                        dell'Ottocento, come quella di Humboldt, dimostrarono che si trattava di un
+                        mito. In realtà, nel punto indicato dalle mappe si trova il massiccio della
+                        Guiana, una regione di fitte foreste e altopiani rocciosi tra Venezuela,
+                        Guyana e Brasile.</note>
+                    <bibl>Schomburgk 2010</bibl>
+                </place>
+                <place xml:id="St_Joseph">
+                    <placeName>St. Joseph</placeName>
+                    <note>Città spagnola a Trinidad incendiata da Raleigh.</note>
+                </place>
+                <place xml:id="north_cape_Spain">
+                    <placeName>north cape of Spain</placeName>
+                </place>
+                <place xml:id="coast_of_Spain">
+                    <placeName>coast of Spain</placeName>
+                    <note>È il luogo in cui la spedizione ha perso di vista una piccola
+                        imbarcazione.</note>
+                </place>
+                <place xml:id="coast">
+                    <placeName>coast</placeName>
+                </place>
+                <place xml:id="shore">
+                    <placeName>shore</placeName>
+                </place>
+                <place xml:id="island">
+                    <placeName>island</placeName>
+                    <note>Termine usato per riferirsi all'isola di Trinidad.</note>
+                </place>
+                <place xml:id="channel">
+                    <placeName>channel</placeName>
+                </place>
+                <place xml:id="river">
+                    <placeName>fresh water river, salt river,rivers</placeName>
+                    <note>Nel testo si riferisce al fiume d'acqua dolce trovato a Parico, al fiume
+                        salato presso Piche e ai fiumi dove gli spagnoli trovarono oro.</note>
+                </place>
+                <place xml:id="brooks">
+                    <placeName>little brooks of fresh water</placeName>
+                    <note>Piccoli flussi d'acqua dolce sulla via tra Parico e Piche.</note>
+                </place>
+                <place xml:id="island_of_Trinidad">
+                    <placeName>island of Trinidad</placeName>
+                </place>
+                <place xml:id="passages">
+                    <placeName>passages</placeName>
+                </place>
+                <place xml:id="borders">
+                    <placeName>borders</placeName>
+                </place>
+                <place xml:id="sea">
+                    <placeName>sea</placeName>
+                </place>
+                <place xml:id="equinoctial_line">
+                    <placeName>equinoctial line</placeName>
+                    <note>Riferimento geografico all'equatore, sotto il quale giace l'impero della
+                        Guiana.</note>
+                </place>
+                <place xml:id="lake">
+                    <placeName>lake of salt water</placeName>
+                    <note>Riferimento al leggendario lago salato lungo 200 leghe su cui sarebbe
+                        fondata la città imperiale di Manoa. Il lago venne considerato per secoli un
+                        enigma geografico ma rivelatosi inesistente.</note>
+                    <bibl>Schomburgk 2010</bibl>
+                </place>
+                <place xml:id="Mare_Caspium">
+                    <placeName>Mare Caspium</placeName>
+                    <note>Termine comparativo usato per descrivere la natura del lago della
+                        Guiana.</note>
+                </place>
+                <place xml:id="earth">
+                    <placeName>earth</placeName>
+                </place>
+            </listPlace>
+
+            <listOrg>
+                <org xml:id="English_company">
+                    <orgName>English Expeditionary Company</orgName>
+                    <note>Il gruppo di Raleigh e dei suoi alleati inglesi.</note>
+                </org>
+                <org xml:id="company">
+                    <orgName>Company</orgName>
+                    <note>Termine riferito alla flotta inglese.</note>
+                </org>
+                <org xml:id="Spaniards">
+                    <orgName>Spaniards</orgName>
+                    <note>Gli occupanti spagnoli, descritti spesso come oppressori.</note>
+                </org>
+                <org xml:id="Indians">
+                    <orgName>Indians</orgName>
+                    <note>Termine generico per indicare le popolazioni native delle Americhe.</note>
+                </org>
+                <org xml:id="people">
+                    <orgName>People</orgName>
+                    <note>Riferimento collettivo alle popolazioni locali.</note>
+                </org>
+                <org xml:id="nation">
+                    <orgName>Nation</orgName>
+                    <note>Riferimento alle diverse tribù o stati politici.</note>
+                </org>
+                <org xml:id="Jajo">
+                    <orgName>Jajo</orgName>
+                    <note>Nazione indigena stanziata presso Parico.</note>
+                </org>
+                <org xml:id="Arawacas">
+                    <orgName>Arwacas</orgName>
+                    <note>Tribù indigena di Punta de Carao, noti anche come Arawaks.</note>
+                </org>
+                <org xml:id="Salvajos">
+                    <orgName>Salvajos</orgName>
+                    <note>Gruppo indigeno situato tra Carao e Curiapan.</note>
+                </org>
+                <org xml:id="Nepojos">
+                    <orgName>Nepojos</orgName>
+                    <note>Popolazione indigena situata tra Carao e Punta de Galera.</note>
+                </org>
+                <org xml:id="Carinepagotes">
+                    <orgName>Carinepagotes</orgName>
+                    <note>Popolazione nativa che abitava la capitale spagnola di Trinidad, Puerto de
+                        los Espanoles.</note>
+                </org>
+                <org xml:id="The_English">
+                    <orgName>The English</orgName>
+                </org>
+                <org xml:id="The_French">
+                    <orgName>The French</orgName>
+                </org>
+                <org xml:id="The_Spanish">
+                    <orgName>The Spanish</orgName>
+                </org>
+                <org xml:id="garrison">
+                    <orgName>Garrison</orgName>
+                    <note>Si tratta della postazione di guardia dei soldati spagnoli. Raleigh spiega
+                        che l'assalto è stato necessario per ragioni di sicurezza, in qunato sarebbe
+                        stato troppo pericoloso lasciare una base nemica attiva alle proprie spalle
+                        mentre si addentrava lungo il fiume Orinoco.</note>
+                </org>
+                <org xml:id="Corps_du_guarde">
+                    <orgName>Corps du guarde</orgName>
+                    <note>Il corpo di guardia spagnolo attaccato dai soldati di Raleigh.</note>
+                </org>
+                <org xml:id="Guianians">
+                    <orgName>Guianians</orgName>
+                    <note>Gli abitanti dell'impero della Guiana.</note>
+                </org>
+                <org xml:id="The_Amazons">
+                    <orgName>The Amazons</orgName>
+                    <note>Nonostante gli errori cronologici di Raleigh, il riferimento alle Amazzoni
+                        risale alla spedizione di Francisco Orellana (1540-1541). Orellana, dopo
+                        aver abbandonato Gonzalo Pizarro durante la ricerca di El Dorado, discese il
+                        fiume che oggi porta il nome di Rio delle Amazzoni. Il nome deriva dal fatto
+                        che l'esploratore vide donne indigene combattere con lo stesso valore degli
+                        uomini, confermando ai suoi occhi i miti greci sulle donne guerriere.
+                        Inizialmente il fiume fu chiamato anche "Orellana" in onore del navigatore
+                        spagnolo.</note>
+                    <bibl>Schomburgk 2010</bibl>
+                </org>
+                <org xml:id="army">
+                    <orgName>Army</orgName>
+                    <note>Esercito militare della regina d'Inghilterra.</note>
+                </org>
+                <org xml:id="fleet">
+                    <orgName>Fleet</orgName>
+                    <note>La forza navale inviata da Elisabetta I.</note>
+                </org>
+                <org xml:id="Christians">
+                    <orgName>Christians</orgName>
+                    <note>Riferimento religioso ai popoli europei cristianizzati.</note>
+                </org>
+                <org xml:id="empire">
+                    <orgName>Empire</orgName>
+                    <note>Riferimento all'Impero della Guiana, Inca o Amazzone.</note>
+                </org>
+                <org xml:id="Ingas">
+                    <orgName>Ingas</orgName>
+                    <note>Riferimento alle popolazioni Inca del Peru.</note>
+                </org>
+                <org xml:id="caciques">
+                    <orgName>Caciques</orgName>
+                    <note>Capi locali delle popolazioni indigene. Nel testo vengono chiamati anche
+                        "lords", "little kings" o con il termine nativo "acarewana".</note>
+                </org>
+                <org xml:id="soldiers">
+                    <orgName>Soldiers</orgName>
+                    <note>Le truppe militari, spesso riferite sia ai soldati inglesi al seguito di
+                        Ralegh che a quelli spagnoli.</note>
+                </org>
+                <org xml:id="slaves">
+                    <orgName>Slaves</orgName>
+                    <note>Indigeni ridotti in schiavitù dagli spagnoli.</note>
+                </org>
+                <org xml:id="captains">
+                    <orgName>Captains</orgName>
+                    <note>Ufficiali e comandanti delle spedizioni o delle guarnigioni.</note>
+                </org>
+                <org xml:id="enemies">
+                    <orgName>Enemies</orgName>
+                    <note>Termine usato da Ralegh per identificare i cacique dell'isola di Trinidad
+                        che avevano preso posizione contro gli spagnoli.</note>
+                </org>
+                <org xml:id="tributaries">
+                    <orgName>Tributaries</orgName>
+                    <desc/>
+                </org>
+                <org xml:id="governors">
+                    <orgName>Governors</orgName>
+                </org>
+                <org xml:id="servants">
+                    <orgName>Servants</orgName>
+                    <note>Il termine identifica sia i servi dell'imperatore della Guiana, che
+                        durante i rituali locali svolgevano il compito di soffiare la polvere d'oro
+                        sui corpi dei danzatori, sia al popolo della Guiana che, secondo Ralegh,
+                        avrebbe promesso di servire la sovrana d'Inghilterra. </note>
+                </org>
+                <org xml:id="wives">
+                    <orgName>Wives</orgName>
+                </org>
+                <org xml:id="daughters">
+                    <orgName>Daughters</orgName>
+                </org>
+                <org xml:id="conquerors">
+                    <orgName>Conquerors</orgName>
+                    <note>Riferimento generale ai conquistadores spagnoli, connotato negativamente
+                        da Ralegh.</note>
+                </org>
+            </listOrg>
+
+            <listObject>
+                <object xml:id="Lion_Whelp_ship">
+                    <objectIdentifier>
+                        <objectName>Lion's Whelp ship</objectName>
+                    </objectIdentifier>
+                </object>
+                <object xml:id="barge">
+                    <objectIdentifier>
+                        <objectName>Walter Ralegh's barge</objectName>
+                    </objectIdentifier>
+                    <note>Imbarcazione con la quale Ralegh costeggia l'isola di Trinidad.</note>
+                </object>
+                <object xml:id="Ralegh_ship">
+                    <objectIdentifier>
+                        <objectName>Walter Ralegh's ship</objectName>
+                    </objectIdentifier>
+                </object>
+                <object xml:id="galego">
+                    <objectIdentifier>
+                        <objectName>Galego</objectName>
+                    </objectIdentifier>
+                    <note>Piccola nave della flotta di Raleigh che si perse in mare poco dopo la
+                        partenza da Plymouth, prima di arrivare a Tenerife.</note>
+                </object>
+                <object xml:id="ship">
+                    <objectIdentifier>
+                        <objectName>Ship</objectName>
+                    </objectIdentifier>
+                </object>
+                <object xml:id="sugar">
+                    <objectIdentifier>
+                        <objectName>Sugar</objectName>
+                    </objectIdentifier>
+                    <note>Risorsa agricola coltivabile nell'isola di Trinidad.</note>
+                </object>
+                <object xml:id="metals">
+                    <objectIdentifier>
+                        <objectName>Metals</objectName>
+                    </objectIdentifier>
+                    <note>Insieme all'oro vengono menzionati anche argento e rame come prova della
+                        ricchezza mineraria della Guiana, superiore a quella del Perù.</note>
+                </object>
+                <object xml:id="gold">
+                    <objectIdentifier>
+                        <objectName>Gold</objectName>
+                    </objectIdentifier>
+                    <note>Il principale metallo prezioso ricercato nella spedizione.</note>
+                </object>
+                <object xml:id="silver">
+                    <objectIdentifier>
+                        <objectName>Silver</objectName>
+                    </objectIdentifier>
+                </object>
+                <object xml:id="copper">
+                    <objectIdentifier>
+                        <objectName>Copper</objectName>
+                    </objectIdentifier>
+                    <note>Menzionato come metallo presente nel territorio, spesso usato per oggetti
+                        di minor valore rispetto all'oro.</note>
+                </object>
+                <object xml:id="linen">
+                    <objectIdentifier>
+                        <objectName>Linen</objectName>
+                    </objectIdentifier>
+                    <note>Il lino era la merce di scambio che gli spagnoli cercavano a bordo delle
+                        navi inglesi. Tuttavia, il vero obiettivo di Raleigh non era il commercio,
+                        ma ottenere informazioni sulla Guiana. Dunque, seppe sfruttare l'occasione
+                        per raccogliere dettagli preziosi sulle difese e sulle ricchezze del
+                        territorio. </note>
+                </object>
+                <object xml:id="chain">
+                    <objectIdentifier>
+                        <objectName>Chain</objectName>
+                    </objectIdentifier>
+                    <note>Strumento di tortura e prigionia usato dagli spagnoli contro i leader
+                        locali nativi.</note>
+                </object>
+                <object xml:id="sword">
+                    <objectIdentifier>
+                        <objectName>Sword</objectName>
+                    </objectIdentifier>
+                </object>
+                <object xml:id="ElizabethI_picture">
+                    <objectIdentifier>
+                        <objectName>Queen Elizabeth I's picture</objectName>
+                    </objectIdentifier>
+                    <note>Ritratti della Regina che Ralegh mostra ai nativi.</note>
+                </object>
+                <object xml:id="Lopez_Book">
+                    <objectIdentifier>
+                        <objectName>General History of the Indies</objectName>
+                    </objectIdentifier>
+                    <note>Opera storiografica citata da Raleigh che funge da prova documentale per
+                        convincere i potenziali finanziatori della missione che il nuovo impero
+                        della Guiana, essendo governato dalla stessa dinastia e dalle stesse leggi
+                        del Perù, offra ricchezze altrettanto spettacolari.</note>
+                </object>
+                <object xml:id="balsam">
+                    <objectIdentifier>
+                        <objectName>Balsamum</objectName>
+                    </objectIdentifier>
+                    <note>Si riferisce al balsamo "Curca", una sostanza bianca adesiva usata nei
+                        rituali locali per preparare la pelle all'applicazione della polvere d'oro
+                        tramite canne usare come cerbottane per soffiare l'oro sui corpi.</note>
+                </object>
+                <object xml:id="canes">
+                    <objectIdentifier>
+                        <objectName>Canes</objectName>
+                    </objectIdentifier>
+                    <note>Strumenti cavi usati per soffiare la polvere d'oro sui corpi.</note>
+                </object>
+                <object xml:id="money">
+                    <objectIdentifier>
+                        <objectName>Money</objectName>
+                    </objectIdentifier>
+                    <note>Monete inglesi che Ralegh distribuisce ai capi tribù.</note>
+                </object>
+                <object xml:id="pineapple">
+                    <objectIdentifier>
+                        <objectName>Pineapple</objectName>
+                    </objectIdentifier>
+                </object>
+                <object xml:id="salt">
+                    <objectIdentifier>
+                        <objectName>Salt</objectName>
+                    </objectIdentifier>
+                    <note>Riferimento alla composizione del suolo della Guiana.</note>
+                </object>
+                <object xml:id="soil">
+                    <objectIdentifier>
+                        <objectName>Soil</objectName>
+                    </objectIdentifier>
+                    <note>Ralegh descrive il suolo della Guiana come straordinariamente
+                        fertile.</note>
+                </object>
+                <object xml:id="ginger">
+                    <objectIdentifier>
+                        <objectName>Ginger</objectName>
+                    </objectIdentifier>
+                    <note> Lo zenzero viene citato come una delle ricchezze naturali locali.</note>
+                </object>
+                <object xml:id="mais">
+                    <objectIdentifier>
+                        <objectName>Mais</objectName>
+                    </objectIdentifier>
+                    <note>Quando parla di mais e cassavi (manioca) come frutti comuni nelle "West
+                        Indies", ci si riferisce alle piante autoctone del continente americano che
+                        non esistevano nel "Vecchio Mondo" o nelle "Indie Orientali"</note>
+                </object>
+                <object xml:id="cassavi">
+                    <objectIdentifier>
+                        <objectName>Cassavi</objectName>
+                    </objectIdentifier>
+                    <note>Insieme al mais, viene citato il "cassavi" o manioca, un tubero che le
+                        popolazioni locali usavano ridurre in farina per la produzione del
+                        pane.</note>
+                </object>
+                <object xml:id="bread">
+                    <objectIdentifier>
+                        <objectName>Bread</objectName>
+                    </objectIdentifier>
+                    <note>Spesso identificato con il pane di cassavi (farina di manioca), preparato
+                        dalle donne indigene.</note>
+                </object>
+                <object xml:id="porks">
+                    <objectIdentifier>
+                        <objectName>Porks</objectName>
+                    </objectIdentifier>
+                </object>
+                <object xml:id="fruit">
+                    <objectIdentifier>
+                        <objectName>Fruit</objectName>
+                    </objectIdentifier>
+                </object>
+                <object xml:id="fish">
+                    <objectIdentifier>
+                        <objectName>Fish</objectName>
+                    </objectIdentifier>
+                </object>
+                <object xml:id="fowl">
+                    <objectIdentifier>
+                        <objectName>Fowl</objectName>
+                    </objectIdentifier>
+                    <note>Termine arcaico per indicare uccelli selvatici.</note>
+                </object>
+                <object xml:id="deer">
+                    <objectIdentifier>
+                        <objectName>Deer</objectName>
+                    </objectIdentifier>
+                </object>
+                <object xml:id="roots">
+                    <objectIdentifier>
+                        <objectName>Roots</objectName>
+                    </objectIdentifier>
+                    <note>Radici alimentari varie che costituivano la base della dieta
+                        locale.</note>
+                </object>
+                <object xml:id="potato_root">
+                    <objectIdentifier>
+                        <objectName>Potato root</objectName>
+                    </objectIdentifier>
+                </object>
+                <object xml:id="beasts">
+                    <objectIdentifier>
+                        <objectName>Beasts</objectName>
+                    </objectIdentifier>
+                </object>
+                <object xml:id="trees">
+                    <objectIdentifier>
+                        <objectName>Trees</objectName>
+                    </objectIdentifier>
+                    <note>Le foreste della Guiana sono descritte come impenetrabili e piene di
+                        legnami pregiati.</note>
+                </object>
+                <object xml:id="boat">
+                    <objectIdentifier>
+                        <objectName>Boat</objectName>
+                    </objectIdentifier>
+                    <note>Piccole imbarcazioni necessarie a navigare i canali poco profondi.</note>
+                </object>
+                <object xml:id="vessels">
+                    <objectIdentifier>
+                        <objectName>Vessels</objectName>
+                    </objectIdentifier>
+                    <note>Navi di stazza maggiore utilizzate per la traversata oceanica prima di
+                        passare alle barche fluviali.</note>
+                </object>
+                <object xml:id="house">
+                    <objectIdentifier>
+                        <objectName>House</objectName>
+                    </objectIdentifier>
+                </object>
+                <object xml:id="tent">
+                    <objectIdentifier>
+                        <objectName>Tent</objectName>
+                    </objectIdentifier>
+                    <note>Accampamenti temporanei allestiti dagli inglesi durante le soste lungo il
+                        fiume.</note>
+                </object>
+                <object xml:id="kitchen">
+                    <objectIdentifier>
+                        <objectName>Kitchen</objectName>
+                    </objectIdentifier>
+                    <note>Uno degli elementi realizzati in oro (insieme a vasi, tavoli, armadi e
+                        statue) citati all'interno della "Historia General de las Indias" e
+                        riportati da Ralegh per trasmettere l'immagine della ricchezza assoluta
+                        della Guiana.</note>
+                </object>
+                <object xml:id="table">
+                    <objectIdentifier>
+                        <objectName>Table</objectName>
+                    </objectIdentifier>
+                </object>
+                <object xml:id="wardrobe">
+                    <objectIdentifier>
+                        <objectName>Wardrobe</objectName>
+                    </objectIdentifier>
+                </object>
+                <object xml:id="statues">
+                    <objectIdentifier>
+                        <objectName>Statues</objectName>
+                    </objectIdentifier>
+                    <note>Sculture d'oro presenti nell'armadio dell'imperatore Guayna Capac.</note>
+                </object>
+                <object xml:id="report">
+                    <objectIdentifier>
+                        <objectName>Report</objectName>
+                    </objectIdentifier>
+                    <note>Si riferisce ai resoconti e alle testimonianze (spesso orali o di cronisti
+                        precedenti) che Ralegh utilizza per convalidare le sue scoperte.</note>
+                </object>
+                <object xml:id="bodies">
+                    <objectIdentifier>
+                        <objectName>Bodies</objectName>
+                    </objectIdentifier>
+                    <note>Riferito sia ai corpi martoriati dei nativi che alle descrizioni fisiche
+                        di popoli fantastici come gli uomini senza testa.</note>
+                </object>
+                <object xml:id="fire">
+                    <objectIdentifier>
+                        <objectName>Fire</objectName>
+                    </objectIdentifier>
+                    <note>L'uso del fuoco come arma di distruzione degli insediamenti nemici o come
+                        segnale tattico.</note>
+                </object>
+                <object xml:id="court">
+                    <objectIdentifier>
+                        <objectName>Court</objectName>
+                    </objectIdentifier>
+                    <note>La mitica corte imperiale degli Inca a Manoa nel racconto di Francisco
+                        López de Gómara.</note>
+                </object>
+                <object xml:id="powder">
+                    <objectIdentifier>
+                        <objectName>Powder</objectName>
+                    </objectIdentifier>
+                    <note>La polvere da sparo, simbolo della potenza bellica inglese e strumento di
+                        difesa indispensabile.</note>
+                </object>
+                <object xml:id="mines">
+                    <objectIdentifier>
+                        <objectName>Mines</objectName>
+                    </objectIdentifier>
+                    <note>Le miniere d'oro e d'argento che Ralegh descrive come il cuore pulsante
+                        delle ricchezze nascoste della Guiana.</note>
+                </object>
+                <object xml:id="feasts">
+                    <objectIdentifier>
+                        <objectName>Feasts</objectName>
+                    </objectIdentifier>
+                    <note>I banchetti rituali degli indigeni, spesso descritti per mostrare la loro
+                        ospitalità e le loro usanze sociali.</note>
+                </object>
+                <object xml:id="images">
+                    <objectIdentifier>
+                        <objectName>Images</objectName>
+                    </objectIdentifier>
+                    <note>Uno degli elementi realizzati in oro (insieme a vasi, tavoli e statue)
+                        citati all'interno della "Historia General de las Indias" e riportati da
+                        Ralegh per trasmettere l'immagine della ricchezza assoluta della
+                        Guiana.</note>
+                </object>
+                <object xml:id="graves">
+                    <objectIdentifier>
+                        <objectName>Graves</objectName>
+                    </objectIdentifier>
+                    <note>Le sepolture locali, citate talvolta in relazione ai tesori sepolti con i
+                        defunti o alle usanze funebri indigene.</note>
+                </object>
+            </listObject>
+
+            <list type="concepts">
+                <head>Concetti astratti e metafore</head>
+
+                <item xml:id="virginity">
+                    <term>Virgin</term>
+                    <note>Viene descritto da Ralegh come un tratto distintivo di Elisabetta I. L'uso
+                        del termine non è solo un omaggio alla "Virgin Queen", ma serve a creare
+                        un'aura di purezza e sacralità intorno alla figura reale, contrapposta alla
+                        "corruzione" dei conquistadores.</note>
+                </item>
+                <item xml:id="greatness">
+                    <term>Greatness</term>
+                    <note>Qualità attribuita sia alla Regina Elisabetta I che alla città di
+                        Manoa.</note>
+                </item>
+                <item xml:id="magnificence">
+                    <term>Magnificence</term>
+                    <note>Tratto attribuito a Guayna Capac, antenato dell'imperatore della
+                        Guiana.</note>
+                </item>
+                <item xml:id="charity">
+                    <term>Charity</term>
+                    <note>Virtù morale attribuita a Elisabetta I per dipingerla come sovrana
+                        compassionevole e salvatrice dei popoli oppressi.</note>
+                </item>
+                <item xml:id="cruelty">
+                    <term>Cruelty</term>
+                    <note>Tratto caratteriale attribuito a Berreo e ai conquistadores spagnoli per
+                        evidenziare la loro brutalità e giustificare la conquista inglese.</note>
+                </item>
+                <item xml:id="oppression_from_Spaniards">
+                    <term>Oppression</term>
+                    <note>La condizione politica dei popoli nativi sotto il dominio spagnolo, usata
+                        da Ralegh come movente etico per la sua missione.</note>
+                </item>
+                <item xml:id="laws_of_Guiana">
+                    <term>Laws</term>
+                    <note>Il sistema normativo e legislativo della Guiana, che Ralegh descrive per
+                        mostrare la complessità civile dell'Impero.</note>
+                </item>
+                <item xml:id="sheephook">
+                    <term>Sheephook</term>
+                    <note>Metafora usata per descrivere la forma geografica di Trinidad comparandola
+                        a un bastone da pastore.</note>
+                </item>
+                <item xml:id="policies_guiana">
+                    <term>Form and Policies</term>
+                    <note>Si riferisce all'organizzazione governativa del regno della Guiana.</note>
+                </item>
+                <item xml:id="religion_of_Guiana">
+                    <term>Religion of Guiana</term>
+                    <note>Nella descrizione dell'impero della Guiana viene specificato che, oltre a
+                        essere governato da un'unica legge, il popolo professa la medesima
+                        religione.</note>
+                </item>
+                <item xml:id="drunkeness_of_natives">
+                    <term>Drunkenness</term>
+                    <note>Ralegh osserva come durante i banchetti rituali, la popolazione sia solita
+                        abbadonarsi allo stato di ebrezza per più giorni.</note>
+                </item>
+                <item xml:id="vice">
+                    <term>Vice</term>
+                    <note>Ralegh afferma che l'ubriachezza è un vizio in cui le popolazioni native
+                        della Guaiana eccedono come nessun'altra nazione. Si tratta di un'ulteriore
+                        testimonianza della tecnica narrativa messa in atto dall'esploratore inglese
+                        volta alla costruzione dell'immagine del nativo come un essere
+                        "barbaro".</note>
+                </item>
+                <item xml:id="tyranny_of_Spaniards">
+                    <term>Tyranny</term>
+                    <note>La forma di governo attribuita agli spagnoli, caratterizzata dall'abuso di
+                        potere e dalla mancanza di giustizia verso i sudditi.</note>
+                </item>
+                <item xml:id="servitude_toward_Spaniards">
+                    <term>Servitude</term>
+                    <note>Stato di schiavitù o sottomissione forzata a cui sono ridotti i popoli
+                        locali dai conquistadores.</note>
+                </item>
+                <item xml:id="famine_of_caciques">
+                    <term>Famine</term>
+                    <note>Condizione di estrema privazione fisica subita dai "caciques" prigionieri
+                        degli spagnoli.</note>
+                </item>
+                <item xml:id="maidenhead">
+                    <term>Maidenhead</term>
+                    <note>"Maidenhead/ Maydenhead" è un termine arcaico che significa verginità.
+                        Impiegando questo termine, l'autore utilizza una metafora molto comune nella
+                        letteratura coloniale del XVI-XVII secolo, ovvero la personificazione delle
+                        terre indigene. Ralegh paragona la Guiana a una donna vergine, intatta, non
+                        ancora "posseduta" o sfruttata.</note>
+                </item>
+                <item xml:id="justice">
+                    <term>Justice</term>
+                    <note>Nel suo dialogo con le tribù locali, Ralegh dipinge la regina Elisabetta I
+                        come un'icona di giustizia e carità, determinata a liberare i popoli
+                        indigeni oppressi dalla tirannia dei conquistadores spagnoli.</note>
+                </item>
+                <item xml:id="admiration">
+                    <term>Admiration</term>
+                    <note>Ralegh sottolinea che le popolazioni della Guiana ascoltarono con molta
+                        attenzione e ammirazione il suo racconto relativo al motivo salvifico della
+                        sua venuta per volere della sovrana inglese. </note>
+                </item>
+                <item xml:id="violence">
+                    <term>Violence</term>
+                    <note>Le azioni di forza perpetrate durante la conquista; Ralegh dichiara di
+                        averla proibita ai suoi uomini per distinguersi dagli spagnoli. </note>
+                </item>
+            </list>
+        </back>
+    </text>
+</TEI>
